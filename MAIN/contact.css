@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'poppins',sans-serif; */
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.page{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(images/contact\ bg.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page h1{
+    margin-bottom: 30px;
+    color: darkgray;
+    font-family: cursive;
+    font-variant: small-caps;
+}
+.item{
+    width: 100%;
+    height: 550px;
+    max-width: 820px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.521);
+    overflow: hidden;
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+    z-index: 0;
+}
+.contact{
+    background: rgba(240,244,248);
+}
+.submit-form{
+    background: darkgray;
+}
+.left-heading{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 36px;
+    color: rgba(128,128,128,0.583);
+    font-family: cursive;
+    font-variant: small-caps;
+}
+.picture{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+}
+.media-icons{
+    display: flex;
+    list-style: none;
+}
+.icons-length{
+    padding-left: 15px;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.media-icons i{
+    background: rgba(128,128,128,0.583);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.media-icons i:hover{
+    background: white;
+    color: rgba(128,128,128,0.583);
+}
+.left-text{
+    font-size: x-large;
+    margin-left: 50px;
+    font-family: cursive;
+    color: rgba(128,128,128,0.583);
+}
+.left-text:hover{
+    text-decoration: underline;
+}
+.right-heading{
+    font-size: 25px;
+    font-family: cursive;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    padding-top: 10px;
+    color: white;
+}
+.form-thing{
+    padding: 0 50px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.input-field{
+    height: 40px;
+    width: 70%;
+    margin: 30px 0;
+    position: relative;
+}
+.input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 10px;
+    color: white;
+    font-family: cursive;
+    font-size: 16px;
+}
+.input-field label{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    padding-left: 10px;
+    transform: translateY(-50%);
+    font-size: 15px;
+    font-weight: 500;
+    font-family: cursive;
+    color: white;
+    transition: 0.3s;
+}
+.input-field .input:focus ~ label,
+.input-field .input:valid ~ label{
+    top: -1px;
+    left: 10px;
+    background: darkgray;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 5px;
+}
+textarea.input{
+    resize: none;
+    min-height: 150px;
+    overflow: auto;
+    padding-top: 10px;
+}
+.submit-button{
+    position: relative;
+    top: 100px;
+    background: white;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    height: 45px;
+    width: 30%;
+    font-size: 16px;
+    color: rgba(128,128,128);
+    cursor: pointer;
+    font-weight: 500;
+}
+.submit-button:hover{
+    background: rgba(128,128,128);
+    color: white;
+}
+
+.to-top {
+    background: white;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.733);
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.to-top:hover {
+    opacity: 1;
+}
+
+@media(max-width:750px){
+    .item{
+        grid-template-columns: 1fr;
+    }
+    .contact{
+        display: none;
+    }
+    .text{
+        font-size: 40px;
+        text-align: center;
+    }
+    .submit-button{
+        width: 25%;
+        height: 40px;
+        font-size: 12px;
+    }
+}
+@media(max-width:480px){
+    .item{
+        grid-template-columns: 1fr;
+    }
+    .contact{
+        display: none;
+    }
+    .text{
+        font-size: 20px;
+        text-align: center;
+    }
+    .submit-button{
+        width: 20%;
+        height: 40px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/png" href="../images/Logo2.png">
+    <title>CeaSaR</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .card {
+            box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 0.5);
+            border: none;
+            opacity: 1;
+            transition: 0.2s all;
+        }
+
+        .card:hover {
+            z-index: 1;
+            transform: scale(1.05);
+            border: 2px solid darkgray;
+
+        }
+
+        .ap {
+            background: linear-gradient(rgba(0, 0, 0, 0.548), rgba(128, 128, 128, 0.589));
+            text-align: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header"></div>
+    <div class="container-fluid ap">
+        <div class="row ">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.aristobrat.in/cdn/shop/products/CS_ClassicWhite_06_1024x1024.jpg?v=1614938700"
+                        height="300" class="card-img-top" alt="White Plain Shirt">
+                    <div class="card-body">
+                        <h4 class="card-title">White Plain Shirt</h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">35$</b>
+                        <b>20$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/h_373,q_80,w_280/v1/assets/images/18106016/2022/4/30/c0776d01-6821-418d-bbf8-7ce3420b043b1651323685311TheSouledStoreMenWhiteFloralPrintedCasualShirt1.jpg"
+                        height="300" class="card-img-top" alt="Oversized Half Shirts">
+                    <div class="card-body">
+                        <h4 class="card-title">Oversized Half Shirts</h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">35$</b>
+                        <b>20$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/15533082/2023/2/10/02fd5910-6f17-4bda-ba8f-ddf698c5cac81676013985849THEBEARHOUSEMenPurpleSlimFitCasualShirt4.jpg"
+                        height="300" class="card-img-top" alt="Casual Red Shirt">
+                    <div class="card-body">
+                        <h4 class="card-title">Red Shirt</h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">55$</b>
+                        <b>33$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/11361160/2020/2/24/6e48c2a4-5d44-48a1-9e89-ef45e60a6a671582535979796-WROGN-Men-Shirts-6061582535978238-1.jpg"
+                        height="300" class="card-img-top" alt="Mandarin Collared Shirts">
+                    <div class="card-body">
+                        <h4 class="card-title">Mandarin Collared</h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">55$</b>
+                        <b>33$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20221110/nbbe/636cd505aeb269659c84b94f/-473Wx593H-441539342-multi-MODEL5.jpg"
+                        height="300" class="card-img-top" alt="shirt">
+                    <div class="card-body">
+                        <h4 class="card-title">Red & Black</h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">35$</b>
+                        <b>20$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/8894529/2019/4/3/c425058d-dbf7-453c-9a9e-c4eccb2ab27a1554288385310-Roadster-Men-Blue-Regular-Fit-Solid-Casual-Shirt-42915542883-1.jpg"
+                        height="300" class="card-img-top" alt="denim">
+                    <div class="card-body">
+                        <h4 class="card-title">Denim Gray</h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">35$</b>
+                        <b>20$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://m.media-amazon.com/images/I/71MOhqtTvWL._AC_UY350_.jpg" height="300"
+                        class="card-img-top" alt="Half sleeve">
+                    <div class="card-body">
+                        <h4 class="card-title">Stylish Half Sleeve</h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">45$</b>
+                        <b>27$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/22998982/2023/5/25/5ec759e4-45d2-4cfc-bd09-867daea4cdc31684997335093-WROGN-Men-Shirts-8151684997334714-1.jpg"
+                        height="300" class="card-img-top" alt="black">
+                    <div class="card-body">
+                        <h4 class="card-title"> Printed Black </h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">45$</b>
+                        <b>27$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/shirt/l/q/o/46-lcmsf619pd09764-n4-linen-club-original-imagzzqrmrxpwhpd.jpeg?q=90"
+                        height="300" class="card-img-top" alt="Lenin">
+                    <div class="card-body">
+                        <h4 class="card-title">Lenin Brown</h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">35$</b>
+                        <b>20$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://rukminim2.flixcart.com/image/550/650/jzzvs7k0/shirt/h/a/h/l-c301-dustypink-dennis-lingo-original-imafjvx7b9jguhdv.jpeg?q=90&crop=false"
+                        height="300" class="card-img-top" alt="Pink">
+                    <div class="card-body">
+                        <h4 class="card-title">Casual Pink </h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">35$</b>
+                        <b>20$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/15039146/2022/5/27/e05315b9-61e8-4be6-b7a8-f1bb094859d71653590655355RARERABBITMenBeigeTailoredFitFloralPrintedCasualShirt1.jpg"
+                        height="300" class="card-img-top" alt="Floral">
+                    <div class="card-body">
+                        <h4 class="card-title">Floral Printed</h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">33$</b>
+                        <b>19$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/17024054/2022/3/18/e4aada7e-873f-4682-8bb5-938b28ec3ff21647581876561-WROGN-Men-Shirts-3031647581875975-1.jpg"
+                        height="300" class="card-img-top" alt="tropical">
+                    <div class="card-body">
+                        <h4 class="card-title">Tropical Printed</h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">33$</b>
+                        <b>19$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://images.meesho.com/images/products/196249595/smcfr_512.webp" height="300"
+                        class="card-img-top" alt="Beach">
+                    <div class="card-body">
+                        <h4 class="card-title">Beach/Party Wear</h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">35$</b>
+                        <b>20$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://img0.junaroad.com/uiproducts/19143721/zoom_0-1673108190.jpg" height="300"
+                        class="card-img-top" alt="Casual grey">
+                    <div class="card-body">
+                        <h4 class="card-title">Casual Gray</h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">35$</b>
+                        <b>20$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://5.imimg.com/data5/LW/NU/GB/SELLER-37190943/cotton-collar-neck-mens-casual-shirts.jpg"
+                        height="300" class="card-img-top" alt="checks">
+                    <div class="card-body">
+                        <h4 class="card-title">Multicolor Checks</h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">42$</b>
+                        <b>21$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.bombayshirts.com/cdn/shop/collections/1120x1200_collection_Formal-custom-made-white-shirts-men.jpg?v=1653051693"
+                        height="300" class="card-img-top" alt="solidwhite">
+                    <div class="card-body">
+                        <h4 class="card-title">Solid White[nylon]</h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">42$</b>
+                        <b>21$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="to-top"><i class="fa-solid fa-chevron-up"></i></a>
+    <div id="footer"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="../code.js"></script>
+</body>
+
+</html>

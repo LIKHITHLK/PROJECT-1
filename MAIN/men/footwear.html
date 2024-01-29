@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/png" href="../images/Logo2.png">
+    <title>CeaSaR</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .card {
+            box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 0.5);
+            border: none;
+            opacity: 1;
+            transition: 0.2s all;
+        }
+
+        .card:hover {
+            z-index: 1;
+            transform: scale(1.05);
+            border: 2px solid darkgray;
+
+        }
+
+        .ap {
+            background: linear-gradient(rgba(0, 0, 0, 0.548), rgba(128, 128, 128, 0.589));
+            text-align: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header"></div>
+    <div class="container-fluid ap">
+        <div class="row ">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/10611164/2022/4/25/796ac0d9-54b0-4898-94e1-afe65c321e881650891614494-The-Roadster-Lifestyle-Co-Men-Off-White-Solid-Sneakers-89116-6.jpg"
+                        height="300" class="card-img-top" alt="sneakers">
+                    <div class="card-body">
+                        <h4 class="card-title">White Sneakers</h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">35$</b>
+                        <b>20$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cdn.shopify.com/s/files/1/0279/5133/3450/files/MG_8831_6983b4ff-5d28-4d59-a03e-f55bce226ad7_1024x1024.jpg?v=1638000866"
+                        height="300" class="card-img-top" alt="Sneaker">
+                    <div class="card-body">
+                        <h4 class="card-title">Chunky Sneakers</h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">35$</b>
+                        <b>20$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://baccabucci.com/cdn/shop/products/MG_8306_a472ac72-4fef-4310-a0e4-5c34ac1e2980_1200x.jpg?v=1635595861"
+                        height="300" class="card-img-top" alt="Sneakers">
+                    <div class="card-body">
+                        <h4 class="card-title"> Black Nike Sneakers</h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">55$</b>
+                        <b>33$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1667419150-2-1667419146.jpg?crop=1xw:1xh;center,top&resize=980:*"
+                        height="300" class="card-img-top" alt="Sneakers">
+                    <div class="card-body">
+                        <h4 class="card-title"> Leather Sneakers</h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">55$</b>
+                        <b>33$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://m.economictimes.com/thumb/msid-102082914,width-480,height-480,resizemode-4,imgsize-32090/branded-sports-shoes-for-men-in-india-from-nike-to-puma.jpg"
+                        height="300" class="card-img-top" alt="sports">
+                    <div class="card-body">
+                        <h4 class="card-title"> Gray Sports Shoes </h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">35$</b>
+                        <b>20$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://down-ph.img.susercontent.com/file/c1758371613f474126e9bf3d1a145fc7" height="300"
+                        class="card-img-top" alt="sports">
+                    <div class="card-body">
+                        <h4 class="card-title">White Sports Shoes</h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">35$</b>
+                        <b>20$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://img3.junaroad.com/uiproducts/18526797/pri_175_p-1687937089.jpg" height="300"
+                        class="card-img-top" alt="Shoes">
+                    <div class="card-body">
+                        <h4 class="card-title"> Black Sports Shoes</h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">45$</b>
+                        <b>27$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://sanskritisolution.com/public/uploads/all/EvZxd9He5ptifndbKc5j4ZyXF2ewQF8E3LHJG22i.jpg"
+                        height="300" class="card-img-top" alt="Shoes">
+                    <div class="card-body">
+                        <h4 class="card-title">Sports Shoes</h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">45$</b>
+                        <b>27$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2022/12/EH/HS/IY/76584784/formal-shoes-for-men.JPG"
+                        height="300" class="card-img-top" alt="formal">
+                    <div class="card-body">
+                        <h4 class="card-title"> Formal Shoes</h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">35$</b>
+                        <b>20$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.crocs.in/media/catalog/product/2/0/205393_066_alt140_1.jpg?auto=webp&format=pjpg&width=964&height=800&fit=cover"
+                        height="300" class="card-img-top" alt="crocs">
+                    <div class="card-body">
+                        <h4 class="card-title">Black Crocs</h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">35$</b>
+                        <b>20$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1683640856-5-645a51fd99a0e.jpg?crop=0.6666666666666666xw:1xh;center,top&resize=980:*"
+                        height="300" class="card-img-top" alt="Slides">
+                    <div class="card-body">
+                        <h4 class="card-title">Slides</h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">33$</b>
+                        <b>19$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center g-3 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://onecart.co.in/wp-content/uploads/2022/07/61YISPflwVL._UY625_.jpg" height="300"
+                        class="card-img-top" alt="formal">
+                    <div class="card-body">
+                        <h4 class="card-title">Formal Shoes</h4>
+                        <p class="card-text"><b>Size-inclusive Style
+                                <br>
+                                35-55% OFF
+                                <br>
+                                Shop Now
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                    <path
+                                        d="M32 64C14.3 64 0 49.7 0 32S14.3 0 32 0l96 0c53 0 96 43 96 96l0 306.7 73.4-73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-128 128c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 402.7 160 96c0-17.7-14.3-32-32-32L32 64z" />
+                                </svg>
+                            </b>
+                        </p>
+                        <b style="text-decoration: line-through; font-weight: 600;">33$</b>
+                        <b>19$</b>
+                        <a href="#" class="btn btn-secondary">Add to cart
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                <path
+                                    d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="to-top"><i class="fa-solid fa-chevron-up"></i></a>
+    <div id="footer"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="../code.js"></script>
+</body>
+
+</html>
